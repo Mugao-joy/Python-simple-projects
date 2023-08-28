@@ -13,6 +13,7 @@ ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
+#crawl pages  of the url
 url = input('Enter URL - ') #'http://py4e-data.dr-chuck.net/known_by_Alister.html'
 repeat = int(input('Enter number of repetations: '))
 position = int(input('Enter the link position: '))
